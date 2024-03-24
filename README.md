@@ -1,6 +1,13 @@
-<h1>csd-340 Web Development with HTML and CSS</h1> 
-<h2>Contributors</h2> 
-<ul>
-  <li>Sue</li> 
-  <li>Boussofyane Ilboudo</li>
-</ul> 
+<!-- Ilboudo_Mod1_3 : Assignment 1.3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <h1>Assignment 1.3 - Building a Web Page Exercise - Part 1</h1>
+</body> 
+
+</html> 
+
