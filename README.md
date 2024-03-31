@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
-    <meta name="description" content="Assignment 2.3 for CSD 340 Development with HTML and CSS">
-    <meta name="keywords" content="HTML, CSS, web development, assignment">
-    <meta name="author" content="Boussofyane Ilboudo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Ilboudo_mod.2_2.css">
-    <title>CSD 340 Development with HTML and CSS</title>
+    <title>Your First Name Your Last Name CSD 340 Landing Page</title>
+    <link rel="stylesheet" href="site.css">
 </head>
-<body> 
+<body>
     <div id="container">
-        <h1>Assignment 2.3 – Building a Web Page Exercise, Part 2</h1>
-        <h2>Chapter Title</h2>
-        <p class="intro">My name is Boussofyane Ilboudo.</p>
-        <p>I am from Burkina Faso, West Africa.</p>
-        <p>I am studying software development at Bellevue University.</p>
-        <p>I like Basketball and Soccer. My favorite Basketball player is Lebron James.</p>
-        <hr />
-        <address>
-            <p>Bellevue University</p>
-            <p>1000 Galvin Road South</p>
-            <p>Bellevue, NE 68005</p>
-            <p><a href="https://www.bellevue.edu/">https://www.bellevue.edu/</a></p>
-        </address>
+        <h1>Your First Name Your Last Name CSD 340 Landing Page</h1>
+        <h2>CSD 340 Web Development with HTML and CSS</h2>
+        <hr>
+        <h3>Module Assignments</h3>
+        <ul>
+            <li><a href="module-1-3.html">Assignment 1.3</a></li>
+            <li><a href="module-2-2.html">Assignment 2.2</a></li>
+            <li><a href="module-3-3.html">Assignment 3.3</a></li>
+        </ul>
+        <h3>Projects</h3>
+        <ul>
+            <li><a href="">bioSite Project Home Page</a></li>
+        </ul>
+        <h4>Important Links</h4>
+        <ul>
+            <li><a href="https://validator.w3.org/">W3C HTML Validator</a></li>
+            <li><a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a></li>
+            <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
+            <li><a href="https://bruinconnect.bellevue.edu/">BRUIN Connect</a></li>
+        </ul>
     </div>
 </body>
 </html>
