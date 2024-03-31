@@ -23,7 +23,6 @@
                 <li>Lessons in chemistry</li>
                 <li>Three inch teeth</li>
                 <li>Blood money</li>
-
                 </ol>
             </div>
             <div class="right">
