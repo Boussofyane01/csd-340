@@ -22,12 +22,6 @@
             <li><a href="">bioSite Project Home Page</a></li>
         </ul>
         <h4>Important Links</h4>
-        <ul>
-            <li><a href="https://validator.w3.org/">W3C HTML Validator</a></li>
-            <li><a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a></li>
-            <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
-            <li><a href="https://bruinconnect.bellevue.edu/">BRUIN Connect</a></li>
-        </ul>
     </div>
 </body>
 </html>
