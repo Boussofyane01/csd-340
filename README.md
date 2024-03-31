@@ -1,25 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boussofyane Ilboudo CSD 340 Landing Page</title>
-    <link rel="stylesheet" href="site.css">
-</head>
-<body>
-    <div id="container">
-        <h1>Boussofyane Ilboudo CSD 340 Landing Page</h1>
-        <h2>CSD 340 Web Development with HTML and CSS</h2>
-        <hr>
-        <h3>Module 3 Assignments 3.2</h3>
-        <ul>
-            <li><a href="module-1/YourName_Assignment1.3.html">Assignment 1.3</a></li>
-            <li><a href="module-2/YourName_Assignment2.2.html">Assignment 2.2</a></li>
-            <li><a href="module-3/YourName_Assignment3.3.html">Assignment 3.3</a></li>
-        </ul>
-        <h3>Projects</h3>
-        <ul>
-            <li><a href="">bioSite Project Home Page</a></li>
-        </ul>
-</body>
-</html>
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #F3E5F5; /* Purple background */
+    color: #4527A0; /* Dark purple font color */
+    border: 1px solid #D6A800;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #7E57C2; /* Light purple for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AB47BC; /* Darker purple on hover */
+}
+
+a:visited {
+    color: #5E35B1; /* Dark purple for visited links */
+}
