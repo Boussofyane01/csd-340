@@ -21,7 +21,5 @@
         <ul>
             <li><a href="">bioSite Project Home Page</a></li>
         </ul>
-        
-    </div>
 </body>
 </html>
