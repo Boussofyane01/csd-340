@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your First Name Your Last Name CSD 340 Landing Page</title>
+    <title>Your Boussofyane Ilboudo CSD 340 Landing Page</title>
     <link rel="stylesheet" href="site.css">
 </head>
 <body>
@@ -22,6 +22,7 @@
             <li><a href="">bioSite Project Home Page</a></li>
         </ul>
         <h4>Important Links</h4>
+       
     </div>
 </body>
 </html>
