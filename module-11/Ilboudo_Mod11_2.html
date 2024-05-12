@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+<body>
+    <h1>Assignment 11.2: JavaScript - Part 3</h1> 
+  <body>
+    
+    <div class="container">
+    <h1></h1>
+    <input type="text" id="entryBox"></input>
+    <button onClick="addEntry()">Add Entry</button>
+    <button onClick="clearEntries()">Clear List</button>
+    <button onClick="deleteEntry()">Delete Entry</button>
+    <button onClick="displayEntries()">Display List</button>
+<ul id="entryList"></ul>
+
+
+</div>
+    <script src="index.js" ></script>
+    <script>
+        // add input entries to an empty array
+        var entries = [];
+
+        // function to add each to the array
+        function addEntry(){
+            //grab input id - Match this to the input id in the html
+            var entry = document.getElementById("entryBox").value;
+            // assign values from the input to the array using push
+            entries.push(entry);
+
+            // clear the input box after adding the entry
+            document.getElementById("entryBox").value = "";
+alert("testhigh");
+        }
+
+        // function to clear 
+        function clearEntries(){
+            entries = [];
+        }
+        //function to delete
+        function deleteEntry(){
+            // pop function deletes the last element of the array
+            entries.pop();
+        }
+        // function to delete one by one even if its displayed
+        function deleteEntry(){
+            // pop function deletes the last element of the array
+            entries.pop();
+            displayEntries();
+        }
+        
+
+
+
+
+        // Function to display all entries in the array
+        function displayEntries() {
+            var entryList = document.getElementById("entryList");
+            // Clear the current list
+            entryList.innerHTML = "";
+            // Iterate over each entry in the array and display it in a list item
+            // Iterate over each entry in the array and display it in a list item
+            for (var i = 0; i < entries.length; i++) {
+                var entryElement = document.createElement("ul");
+                entryElement.textContent = `Item ${i + 1} = ${entries[i]}`;
+                entryList.appendChild(entryElement);
+            }
+        }
+    </script>
+  </body>
+</html>
