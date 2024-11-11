@@ -1,0 +1,44 @@
+/* Center the h1 title */
+h1 {
+    text-align: center;
+    color: rgba(0, 102, 204, 0.8); /* Optional color */
+}
+
+/* Style for the main image gallery div */
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px; /* Space between columns */
+    margin-top: 10%;
+}
+
+/* Center the h3 titles */
+h3 {
+    text-align: center;
+    color: rgba(204, 51, 0, 0.8); /* Optional color */
+}
+
+/* Center figure content */
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+/* Style for figcaptions */
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(0, 51, 102, 0.8); /* Optional color */
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add border around images */
+#image-gallery img {
+    width: 100%;
+    border: 3px solid #333; /* Adds a border around the images */
+    border-radius: 5px; /* Optional rounded corners */
+}
