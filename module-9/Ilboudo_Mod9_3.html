@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Assignment 9.3: JavaScript - Part 1</h1> 
+
+    <p class="intro">My name is Boussofyane Ilboudo. <span id="first">_____</span> I am from Burkina Faso, West Africa.</p>
+        <p>I moved to the USA in October 2015.  <span id="second">____</span> Nebraska is my first and only State I have resided and I love living in Omaha.</p>
+        <p>My goal was to study civil engineering at UNO after I graduated with my associate degree at MCC.  <span id="third">_____</span> I started one semester at UNO.</p>
+        <p>In September 2022 I decide to join the US army. I went to Basic training and AIT in Fort Leonard Wood, Missouri. <span id="fourth">______</span> I finished all my training in February 2023. When I came back from my training I switched to study software development now. </p>
+    
+    
+<script>
+    // JavaScript variables referencing span tags
+    // Strings assigned to variables
+    var first = 'first '
+    var second ='second'
+    var third = 'third'
+    var fourth = 'fourth'
+</script>
+
+<!-- Buttons referencing variables -->
+<button type="button" onclick="document.getElementById('first').innerHTML = first">First </button>
+<button type="button" onclick="document.getElementById('second').innerHTML = second">Second</button>
+<button type="button"onclick="document.getElementById('third').innerHTML = third">Third</button>
+<button type="button"onclick="document.getElementById('fourth').innerHTML = fourth">Fourth</button>
+
+</body>
+</html>
